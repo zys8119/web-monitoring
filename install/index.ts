@@ -55,5 +55,7 @@ const berInit = async (callback:any)=>{
     console.log(blue(`正在解压nginx-1.22.1`))
     execSync("tar -xvf nginx-1.22.1.tar.gz", {cwd:nginx_cwd})
     execSync("./configure", {cwd:nginx_cwd+"/nginx-1.22.1"})
+    execSync("make -y", {cwd:nginx_cwd+"/nginx-1.22.1"})
+    execSync("make install -y", {cwd:nginx_cwd+"/nginx-1.22.1"})
     console.log(blue(`解压完成`))
 })()
