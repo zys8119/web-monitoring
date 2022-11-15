@@ -7,6 +7,15 @@ services:
     restart: always
     command: ["tail", "-f", "/dev/null"]
     ports:
-      - "88:81",
+    # web页面端口
+      - "40030:80"
+    # 服务端口
+      - "40010:8080"
+      - "40011:8081"
+    # mysql端口
+      - "40020:3306"
     volumes:
-      -
+      # 前端资源
+      - "./web:/web"
+      # 服务资源
+      - "./node:/node"
