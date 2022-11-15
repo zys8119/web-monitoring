@@ -19,3 +19,7 @@ services:
       - "./web:/web"
       # 服务资源
       - "./node:/node"
+      # nginx服务配置
+      - "./nginx:/usr/local/nginx/conf"
+      # install 帮助程序
+      - "./install:/install"
