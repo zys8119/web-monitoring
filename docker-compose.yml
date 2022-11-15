@@ -1,0 +1,12 @@
+# yaml 配置实例
+version: '3'
+services:
+  webMonitoring:
+    container_name: webMonitoring
+    image: node
+    restart: always
+    command: ["tail", "-f", "/dev/null"]
+    ports:
+      - "88:81",
+    volumes:
+      -

@@ -1,0 +1,28 @@
+# development only provides a mysql container
+#
+# basic usage:
+# docker-compose -f docker-compose.development.yaml up -d
+#
+# Or with Custom env file path (using .env as default)
+# docker-compose -f docker-compose.development.yaml up -d
+#
+# mysql can be accessed at localhost:3306
+
+
+version: "3"
+
+services:
+  mysql:
+    image: mysql:5.7-debian
+    ports:
+      - "3306:3306"
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      # required if not use root user
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - ${MYSQL_DIR}:/var/lib/mysql

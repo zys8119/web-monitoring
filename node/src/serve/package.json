@@ -1,0 +1,12 @@
+{
+    "name": "@wisdom-serve/serve",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "types": "./types/type.ts",
+    "keywords": [
+        "wisdom-serve"
+    ],
+    "scripts": {},
+    "license": "MIT"
+}
