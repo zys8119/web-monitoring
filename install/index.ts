@@ -3,8 +3,10 @@ import axios from "axios"
 import {green, yellow, blue} from "chalk"
 import ProgressBar from "progress"
 import {mkdirSync} from "fs-extra"
-import {readFileSync, writeFileSync} from "fs"
+import {readFileSync, writeFileSync, createWriteStream, createReadStream} from "fs"
 import {execSync} from "child_process"
+import {createGzip} from "zlib"
+
 const logStr = (str:string)=>{
     return str.split("\n").map(e=>e.trim()).filter(e=>e).join("\n")
 }
@@ -39,7 +41,7 @@ const berInit = async (callback:any)=>{
         const {data} = await axios({
             method:"get",
             url:"http://nginx.org/download/nginx-1.22.1.tar.gz",
-            responseType:"blob",
+            responseType:"arraybuffer",
             onDownloadProgress(e:any){
                 bar.total = e.total
                 bar.next(e.loaded)
@@ -49,9 +51,8 @@ const berInit = async (callback:any)=>{
     })
     writeFileSync("./packages/nginx-1.22.1.tar.gz", nginx)
     console.log(blue(`nginx下载完成`))
-    console.log(blue(`正在解压nginx-1.22.1.tar.gz`))
-    execSync("tar -xvf ./packages/nginx-1.22.1.tar.gz")
+    console.log(blue(`正在解压nginx-1.22.1`))
+    execSync("tar -xvf nginx-1.22.1.tar.gz", {cwd:"/install/packages"})
+    execSync("./configure", {cwd:"/install/packages/nginx-1.22.1"})
     console.log(blue(`解压完成`))
-    execSync("tail -f /dev/null")
-    console.log(blue(`挂起服务`))
 })()

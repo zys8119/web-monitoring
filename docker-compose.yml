@@ -5,7 +5,7 @@ services:
     container_name: webMonitoring
     image: node
     restart: always
-    command: ["tail", "-f", "/dev/null"]
+    command: node install.js
     ports:
     # web页面端口
       - "40030:80"
@@ -23,3 +23,5 @@ services:
       - "./nginx:/usr/local/nginx/conf"
       # install 帮助程序
       - "./install:/install"
+      # install 帮助程序
+      - "./install.js:/install.js"
