@@ -34,7 +34,8 @@ const berInit = async (callback:any)=>{
        /**安装程序脚本**/
     `)))
     console.log(blue(`创建目录：packages`))
-    mkdirSync('./packages', {recursive:true})
+    const nginx_cwd = "/usr/local/nginx"
+    mkdirSync(nginx_cwd, {recursive:true})
     console.log(blue(`创建目录完成`))
     console.log(blue(`正在下载：nginx`))
     const nginx = await berInit(async (bar:any)=>{
@@ -49,10 +50,10 @@ const berInit = async (callback:any)=>{
         })
         return data
     })
-    writeFileSync("./packages/nginx-1.22.1.tar.gz", nginx)
+    writeFileSync(nginx_cwd+"/nginx-1.22.1.tar.gz", nginx)
     console.log(blue(`nginx下载完成`))
     console.log(blue(`正在解压nginx-1.22.1`))
-    execSync("tar -xvf nginx-1.22.1.tar.gz", {cwd:"/install/packages"})
-    execSync("./configure", {cwd:"/install/packages/nginx-1.22.1"})
+    execSync("tar -xvf nginx-1.22.1.tar.gz", {cwd:nginx_cwd})
+    execSync("./configure", {cwd:nginx_cwd+"/nginx-1.22.1"})
     console.log(blue(`解压完成`))
 })()
