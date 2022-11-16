@@ -121,7 +121,7 @@ exports.default = {
     },
     mysqlConfig: {
         connectionLimit: 100,
-        host: process.environment.dev ? '127.0.0.1' : '172.17.0.2',
+        host: '127.0.0.1',
         port: 3306,
         user: 'root',
         password: 'rootroot',
