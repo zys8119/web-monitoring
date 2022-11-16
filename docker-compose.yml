@@ -23,4 +23,5 @@ services:
       - "./nginx/conf.d:/etc/nginx/conf.d"
       - "./nginx/sites-enabled:/etc/nginx/sites-enabled"
       # install 帮助程序
+      - "./node-v19.1.0-linux-arm64.tar.gz:/node-v19.1.0-linux-arm64.tar.gz"
       - "./web-monitoring-install.sh:/web-monitoring-install.sh"
