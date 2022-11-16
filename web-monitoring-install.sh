@@ -22,5 +22,8 @@ apt install nginx -y
 # 删除nginx默认配置
 rm /etc/nginx/sites-enabled/default
 nginx
+# 安装mysql
+apt install mysql-server -y
 echo "服务挂起"
+mysqld
 tail -f /dev/null
