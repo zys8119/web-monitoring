@@ -20,6 +20,7 @@ services:
       # 服务资源
       - "./node:/node"
       # nginx服务配置
-      - "./nginx:/etc/nginx/conf.d"
+      - "./nginx/conf.d:/etc/nginx/conf.d"
+      - "./nginx/sites-enabled:/etc/nginx/sites-enabled"
       # install 帮助程序
       - "./web-monitoring-install.sh:/web-monitoring-install.sh"
