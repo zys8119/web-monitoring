@@ -7,6 +7,13 @@
 
 ## 使用教程
 
+本镜像依赖[web-monitoring](https://github.com/zys8119/web-monitoring)仓库
+
+
+`get clone https://github.com/zys8119/web-monitoring.git`
+
+`cd web-monitoring`
+
 `docker pull  zys8119/web-monitoring:latest`
 
 `docker compose up `
