@@ -132,9 +132,5 @@ exports.default = {
         port: 40010
     },
     noticeConfig: {
-    // DingTalk:{
-    //     access_token: "c637e314590f0a7053c96d3079b2ed820eebc670ac2c84b135a8b8bbcf658268",
-    //     secret:"SECdeb6035fb77e2b49e26137d6da8c55421a46b73eb61eb8d4325e68d4a4a37455"
-    // }
     }
 };
