@@ -1,5 +1,0 @@
-const {execSync} = require("child_process")
-console.log("正在安装...")
-execSync("cd install && npm run serve")
-console.log("安装完成")
-execSync("tail -f /dev/null")

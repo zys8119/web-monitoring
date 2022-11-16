@@ -1,11 +1,11 @@
 # yaml 配置实例
 version: '3'
 services:
-  webMonitoring:
-    container_name: webMonitoring
-    image: node
+  ubuntu:
+    container_name: ubuntu_test
+    image: ubuntu
     restart: always
-    command: node install.js
+    command: sh ./web-monitoring-install.sh
     ports:
     # web页面端口
       - "40030:80"
@@ -20,8 +20,6 @@ services:
       # 服务资源
       - "./node:/node"
       # nginx服务配置
-      - "./nginx:/usr/local/nginx/conf"
+      - "./nginx:/etc/nginx/conf.d"
       # install 帮助程序
-      - "./install:/install"
-      # install 帮助程序
-      - "./install.js:/install.js"
+      - "./web-monitoring-install.sh:/web-monitoring-install.sh"
