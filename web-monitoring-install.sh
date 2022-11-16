@@ -1,12 +1,11 @@
-echo "更新apt"
 apt update
-echo "安装vim"
+apt install wget -y
 apt install vim -y
-echo "安装nodejs"
-apt install nodejs -y
-echo "安装nginx"
+wget https://nodejs.org/dist/v19.1.0/node-v19.1.0-linux-arm64.tar.gz
+tar -xvf node-v19.1.0-linux-arm64.tar.gz
+ln -s /node-v19.1.0-linux-arm64/bin/node /usr/local/bin/node
+ln -s /node-v19.1.0-linux-arm64/bin/npm /usr/local/bin/npm
+npm install pm2 -g
 apt install nginx -y
-echo "启动nginx"
-nginx
 echo "服务挂起"
 tail -f /dev/null
