@@ -1,8 +1,8 @@
 # yaml 配置实例
 version: '3'
 services:
-  ubuntu:
-    container_name: ubuntu_test
+  web-monitoring:
+    container_name: web-monitoring
     image: zys8119/web-monitoring:latest
     restart: always
     command: sh ./web-monitoring-install.sh
