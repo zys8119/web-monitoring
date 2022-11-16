@@ -1,1 +1,140 @@
-'use strict';function _0x155e(_0x531d4d,_0x137fdd){const _0x15ac33=_0x2a6b();return _0x155e=function(_0x53d0f0,_0x53fd65){_0x53d0f0=_0x53d0f0-(-0x149a+-0x1111+-0x1*-0x261f);let _0x16c127=_0x15ac33[_0x53d0f0];return _0x16c127;},_0x155e(_0x531d4d,_0x137fdd);}function _0x2a6b(){const _0x13f7ee=['\x38\x38\x30\x30\x30\x38\x54\x4a\x66\x4c\x53\x68','\x64\x6f\x6e\x65','\x6e\x65\x78\x74','\x73\x74\x72\x69\x6e\x67\x69\x66\x79','\x74\x61\x62\x6c\x65\x73','\x5f\x5f\x61\x77\x61\x69\x74\x65\x72','\x31\x37\x32\x2e\x31\x37\x2e\x30\x2e\x32','\x64\x65\x66\x61\x75\x6c\x74','\x63\x6f\x6e\x6e\x65\x63\x74\x2d\x6c\x6f','\x69\x74\x6f\x72\x69\x6e\x67\x5f\x6e\x6f','\x70\x61\x72\x73\x65','\x65\x6e\x74\x5f\x6b\x65\x79','\x65\x6e\x64','\x73\x79\x73\x74\x65\x6d\x5f\x6d\x6f\x6e','\x62\x61\x73\x65\x36\x34','\x64\x65\x66\x69\x6e\x65\x50\x72\x6f\x70','\x34\x52\x79\x76\x5a\x64\x48','\x63\x72\x79\x70\x74\x6f','\x76\x69\x73\x69\x74\x6f\x72\x49\x64','\x64\x61\x74\x61','\x74\x6f\x53\x74\x72\x69\x6e\x67','\x63\x6c\x69\x65\x6e\x74\x5f\x6b\x65\x79','\x31\x32\x37\x2e\x30\x2e\x30\x2e\x31','\x32\x36\x31\x32\x33\x34\x6b\x73\x62\x6d\x41\x62','\x64\x65\x6c\x65\x74\x65','\x61\x70\x70\x6c\x79','\x31\x30\x35\x34\x36\x38\x36\x69\x6d\x57\x5a\x44\x70','\x74\x68\x72\x6f\x77','\x76\x61\x6c\x75\x65','\x32\x30\x37\x37\x35\x33\x4f\x41\x71\x6f\x44\x65','\x24\x73\x6f\x63\x6b\x65\x74\x53\x65\x6e','\x65\x6e\x74\x2d\x74\x79\x70\x65','\x65\x6e\x76\x69\x72\x6f\x6e\x6d\x65\x6e','\x67\x65\x74','\x64\x65\x76','\x65\x72\x74\x79','\x68\x65\x78','\x72\x6f\x6f\x74\x72\x6f\x6f\x74','\x73\x6f\x63\x6b\x65\x74','\x63\x61\x6c\x6c','\x63\x72\x65\x61\x74\x65\x48\x61\x73\x68','\x70\x61\x72\x65\x6e\x74\x5f\x63\x6c\x69','\x75\x70\x64\x61\x74\x65','\x31\x38\x33\x31\x38\x34\x34\x53\x42\x52\x4f\x6f\x61','\x24\x44\x42\x4d\x6f\x64\x65\x6c','\x6d\x61\x70','\x67\x69\x6e\x2d\x73\x75\x63\x63\x65\x73','\x6c\x6f\x67\x5f\x70\x76','\x74\x6f\x6b\x65\x6e\x2c\x63\x6f\x6e\x74','\x24\x73\x6f\x63\x6b\x65\x74\x4c\x69\x73','\x31\x34\x31\x37\x32\x38\x73\x71\x70\x6f\x48\x79','\x70\x6f\x73\x74','\x66\x72\x6f\x6d','\x6d\x64\x35','\x64\x69\x67\x65\x73\x74','\x33\x34\x33\x66\x45\x57\x6a\x70\x65','\x5f\x5f\x65\x73\x4d\x6f\x64\x75\x6c\x65','\x32\x39\x34\x30\x35\x33\x33\x32\x41\x54\x42\x43\x7a\x52','\x32\x30\x63\x45\x42\x65\x53\x6d','\x31\x35\x73\x59\x4a\x47\x41\x4f','\x63\x6f\x6e\x6e\x65\x63\x74\x5f\x75\x73','\x74\x68\x65\x6e','\x72\x6f\x6f\x74'];_0x2a6b=function(){return _0x13f7ee;};return _0x2a6b();}const _0x530cd0=_0x155e;(function(_0x20e060,_0x41e8d1){const _0x3dc1f3=_0x155e,_0x285704=_0x20e060();while(!![]){try{const _0x2ffa74=-parseInt(_0x3dc1f3(0x8f))/(-0x2143+0x1*-0xc15+-0xd*-0x37d)+-parseInt(_0x3dc1f3(0x9d))/(0x2bc+0x1437+-0x7*0x347)+parseInt(_0x3dc1f3(0xb1))/(0x8*0x295+0x6*0x3d6+-0x1*0x2ba9)*(parseInt(_0x3dc1f3(0x82))/(0x1*-0x2192+-0x3*0x418+0x67*0x72))+-parseInt(_0x3dc1f3(0xad))/(-0x1*0x2159+0x10d*0x1d+0x2e5)*(parseInt(_0x3dc1f3(0x8c))/(-0x1cea+0x7*0x475+-0x243))+-parseInt(_0x3dc1f3(0xa9))/(-0x257d+-0x13a2+0x7*0x82a)*(parseInt(_0x3dc1f3(0xa4))/(-0x1dbf+-0x138c+-0x17*-0x225))+parseInt(_0x3dc1f3(0x89))/(-0x8be+0x66b+0x25c)*(parseInt(_0x3dc1f3(0xac))/(0x1*-0x50c+-0x17*0x12b+0x1ff3))+parseInt(_0x3dc1f3(0xab))/(-0x17*-0xad+0xb*-0xdc+-0x60c);if(_0x2ffa74===_0x41e8d1)break;else _0x285704['push'](_0x285704['shift']());}catch(_0x5cf2c1){_0x285704['push'](_0x285704['shift']());}}}(_0x2a6b,0x6e75*-0xd+-0x15b4e*-0x8+0x2781b));var __awaiter=this&&this[_0x530cd0(0x77)]||function(_0x27c34f,_0x555231,_0x34e7f3,_0x5b72a7){function _0x586cdb(_0x5342fd){return _0x5342fd instanceof _0x34e7f3?_0x5342fd:new _0x34e7f3(function(_0x39ae84){_0x39ae84(_0x5342fd);});}return new(_0x34e7f3||(_0x34e7f3=Promise))(function(_0x1cf804,_0x278a06){const _0x1c5675=_0x155e;function _0x5d406b(_0x53b832){const _0x44f40f=_0x155e;try{_0x5338b6(_0x5b72a7[_0x44f40f(0x74)](_0x53b832));}catch(_0x5af56b){_0x278a06(_0x5af56b);}}function _0x539b08(_0x1cbcde){const _0x41f6d2=_0x155e;try{_0x5338b6(_0x5b72a7[_0x41f6d2(0x8d)](_0x1cbcde));}catch(_0x5b5e42){_0x278a06(_0x5b5e42);}}function _0x5338b6(_0x31d4fe){const _0x3dd9cc=_0x155e;_0x31d4fe[_0x3dd9cc(0xb2)]?_0x1cf804(_0x31d4fe[_0x3dd9cc(0x8e)]):_0x586cdb(_0x31d4fe[_0x3dd9cc(0x8e)])[_0x3dd9cc(0xaf)](_0x5d406b,_0x539b08);}_0x5338b6((_0x5b72a7=_0x5b72a7[_0x1c5675(0x8b)](_0x27c34f,_0x555231||[]))[_0x1c5675(0x74)]());});};Object[_0x530cd0(0x81)+_0x530cd0(0x95)](exports,_0x530cd0(0xaa),{'\x76\x61\x6c\x75\x65':!![]});const crypto_1=require(_0x530cd0(0x83)),post_connect_user=function(_0x2e0227,_0x2c61a1,_0x3a9814){return __awaiter(this,void(0xedf*0x2+-0x146e+0x4a8*-0x2),void(0x11b2+-0xb8*-0x2a+-0x2fe2),function*(){const _0x3f2e78=_0x155e,_0x21859=(0x2028+0x251d+0x303*-0x17,crypto_1[_0x3f2e78(0x9a)])(_0x3f2e78(0xa7))[_0x3f2e78(0x9c)](JSON[_0x3f2e78(0x75)](_0x2c61a1))[_0x3f2e78(0xa8)](_0x3f2e78(0x96)),_0x50436e={'\x63\x6c\x69\x65\x6e\x74\x5f\x6b\x65\x79':_0x2e0227,'\x63\x6c\x69\x65\x6e\x74\x5f\x69\x64':_0x21859,'\x69\x73\x5f\x61\x64\x6d\x69\x6e\x5f\x63\x6c\x69\x65\x6e\x74':_0x3a9814?-0x6*-0xca+0x1c2c+-0x1*0x20e6:0x1*-0x4b+0x813+-0x7c7};if(!_0x3a9814){const [{client_key:_0x4f0e3a}={}]=yield this[_0x3f2e78(0x9e)][_0x3f2e78(0x76)][_0x3f2e78(0xae)+'\x65\x72'][_0x3f2e78(0x93)]({'\x77\x68\x65\x72\x65':{'\x69\x73\x5f\x61\x64\x6d\x69\x6e\x5f\x63\x6c\x69\x65\x6e\x74':{'\x76\x61\x6c\x75\x65':0x2},'\x63\x6c\x69\x65\x6e\x74\x5f\x69\x64':{'\x76\x61\x6c\x75\x65':_0x21859,'\x61\x6e\x64':!![]}}});if(_0x4f0e3a)_0x50436e[_0x3f2e78(0x9b)+_0x3f2e78(0x7d)]=_0x4f0e3a;else{global[_0x3f2e78(0xa3)+'\x74'][_0x2e0227]&&(global[_0x3f2e78(0xa3)+'\x74'][_0x2e0227][_0x3f2e78(0x98)][_0x3f2e78(0x7e)](),delete global[_0x3f2e78(0xa3)+'\x74'][_0x2e0227]);return;}}yield this[_0x3f2e78(0x9e)][_0x3f2e78(0x76)][_0x3f2e78(0xae)+'\x65\x72'][_0x3f2e78(0xa5)](_0x50436e);});};exports[_0x530cd0(0x79)]={'\x6d\x79\x73\x71\x6c\x41\x75\x74\x6f':/^\/syncMysqlAuto/,'\x64\x65\x62\x75\x67':![],'\x71\x75\x65\x72\x79\x5f\x70\x61\x72\x61\x6d\x73':!![],'\x63\x6f\x72\x73':!![],'\x63\x6f\x72\x73\x48\x65\x61\x64\x65\x72\x73':_0x530cd0(0xa2)+_0x530cd0(0x91),'\x63\x72\x65\x64\x65\x6e\x74\x69\x61\x6c\x73':!![],'\x77\x65\x62\x73\x6f\x63\x6b\x65\x74':{'\x63\x6f\x6e\x6e\x65\x63\x74\x2d\x6c\x6f\x67\x69\x6e'({payload:_0xa83740,key:_0x46ec67}){((()=>__awaiter(this,void(-0xe32+-0x1ab7+0x28e9),void(0x8e5+-0x1*-0x2423+-0xb42*0x4),function*(){const _0x4f7286=_0x155e;if(_0xa83740['\x69\x64']){const [{user_id:_0x2bca21,user_tag:_0x20162a,device_log:_0x3c48d8,app_id:_0x3279a3,project_version:_0x42355e}={}]=yield this[_0x4f7286(0x9e)][_0x4f7286(0x76)][_0x4f7286(0xa1)][_0x4f7286(0x93)]({'\x77\x68\x65\x72\x65':{'\x69\x64':{'\x76\x61\x6c\x75\x65':_0xa83740['\x69\x64']}}}),_0x4d35d2=JSON[_0x4f7286(0x7c)](Buffer[_0x4f7286(0xa6)](_0x3c48d8,_0x4f7286(0x80))[_0x4f7286(0x86)]());yield post_connect_user[_0x4f7286(0x99)](this,_0x46ec67,{'\x75\x73\x65\x72\x5f\x69\x64':_0x2bca21,'\x75\x73\x65\x72\x5f\x74\x61\x67':_0x20162a,'\x76\x69\x73\x69\x74\x6f\x72\x49\x64':_0x4d35d2[_0x4f7286(0x84)],'\x61\x70\x70\x5f\x69\x64':_0x3279a3,'\x70\x72\x6f\x6a\x65\x63\x74\x5f\x76\x65\x72\x73\x69\x6f\x6e':_0x42355e},!![]);}else yield post_connect_user[_0x4f7286(0x99)](this,_0x46ec67,_0xa83740[_0x4f7286(0x85)],![]);global[_0x4f7286(0x90)+'\x64'](JSON[_0x4f7286(0x75)]({'\x65\x6d\x69\x74':_0x4f7286(0x7a)+_0x4f7286(0xa0)+'\x73'}),[_0x46ec67]);}))());},'\x63\x6f\x6e\x6e\x65\x63\x74\x2d\x73\x65\x6e\x64'({payload:_0x25c57e,key:_0x227ba2}){((()=>__awaiter(this,void(0x155e+0x1231+-0xd*0x30b),void(0x448+-0x5f*-0x59+0x254f*-0x1),function*(){const _0x2a223b=_0x155e;if(_0x25c57e['\x69\x64']){const _0x950764=yield this[_0x2a223b(0x9e)][_0x2a223b(0x76)][_0x2a223b(0xae)+'\x65\x72'][_0x2a223b(0x93)]({'\x77\x68\x65\x72\x65':{'\x70\x61\x72\x65\x6e\x74\x5f\x63\x6c\x69\x65\x6e\x74\x5f\x6b\x65\x79':{'\x76\x61\x6c\x75\x65':_0x227ba2},'\x69\x73\x5f\x61\x64\x6d\x69\x6e\x5f\x63\x6c\x69\x65\x6e\x74':{'\x76\x61\x6c\x75\x65':0x1,'\x61\x6e\x64':!![]}}});global[_0x2a223b(0x90)+'\x64'](JSON[_0x2a223b(0x75)](_0x25c57e),_0x950764[_0x2a223b(0x9f)](_0x296db3=>_0x296db3[_0x2a223b(0x87)]));}else{const [{parent_client_key:_0x376ada}={}]=yield this[_0x2a223b(0x9e)][_0x2a223b(0x76)][_0x2a223b(0xae)+'\x65\x72'][_0x2a223b(0x93)]({'\x77\x68\x65\x72\x65':{'\x63\x6c\x69\x65\x6e\x74\x5f\x6b\x65\x79':{'\x76\x61\x6c\x75\x65':_0x227ba2}}});_0x376ada&&global[_0x2a223b(0x90)+'\x64'](JSON[_0x2a223b(0x75)](_0x25c57e),[_0x376ada]);}}))());},'\x77\x73\x2d\x63\x6c\x6f\x73\x65'({key:_0x1e9a6d}){((()=>__awaiter(this,void(-0xed*-0x1+0x146f+-0x155c),void(0x1574+0x10f*0x22+-0x3972),function*(){const _0x44b055=_0x155e;yield this[_0x44b055(0x9e)][_0x44b055(0x76)][_0x44b055(0xae)+'\x65\x72'][_0x44b055(0x8a)]({'\x77\x68\x65\x72\x65':{'\x63\x6c\x69\x65\x6e\x74\x5f\x6b\x65\x79':{'\x76\x61\x6c\x75\x65':_0x1e9a6d}}});}))());}},'\x43\x6f\x72\x65\x50\x6c\x75\x67\x43\x6f\x6e\x66\x69\x67':{'\x73\x74\x61\x74\x69\x63\x50\x75\x6c\x67\x69\x6e':{'\x65\x78\x74\x48\x65\x61\x64\x65\x72':{'\x2e\x6a\x70\x65\x67':{'\x61\x63\x63\x65\x73\x73\x2d\x63\x6f\x6e\x74\x72\x6f\x6c\x2d\x61\x6c\x6c\x6f\x77\x2d\x6f\x72\x69\x67\x69\x6e':'\x2a'}}}},'\x6d\x79\x73\x71\x6c\x43\x6f\x6e\x66\x69\x67':{'\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x4c\x69\x6d\x69\x74':0x64,'\x68\x6f\x73\x74':process[_0x530cd0(0x92)+'\x74'][_0x530cd0(0x94)]?_0x530cd0(0x88):_0x530cd0(0x78),'\x70\x6f\x72\x74':0xcea,'\x75\x73\x65\x72':_0x530cd0(0xb0),'\x70\x61\x73\x73\x77\x6f\x72\x64':_0x530cd0(0x97),'\x64\x61\x74\x61\x62\x61\x73\x65':_0x530cd0(0x7f)+_0x530cd0(0x7b)+'\x64\x65','\x70\x72\x65\x66\x69\x78':''},'\x73\x65\x72\x76\x65':{'\x70\x6f\x72\x74':0x9c4a},'\x6e\x6f\x74\x69\x63\x65\x43\x6f\x6e\x66\x69\x67':{}};
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const crypto_1 = require("crypto");
+const post_connect_user = function (key, data, isAdmin) {
+    return __awaiter(this, void 0, void 0, function* () {
+        // 客户端唯一id
+        const client_id = (0, crypto_1.createHash)("md5").update(JSON.stringify(data)).digest("hex");
+        const postData = {
+            client_key: key,
+            client_id,
+            is_admin_client: isAdmin ? 2 : 1
+        };
+        if (!isAdmin) {
+            const [{ client_key } = {}] = yield this.$DBModel.tables.connect_user.get({
+                where: {
+                    is_admin_client: { value: 2 },
+                    client_id: { value: client_id, and: true },
+                }
+            });
+            if (client_key) {
+                postData.parent_client_key = client_key;
+            }
+            else {
+                if (global.$socketList[key]) {
+                    global.$socketList[key].socket.end();
+                    delete global.$socketList[key];
+                }
+                return;
+            }
+        }
+        yield this.$DBModel.tables.connect_user.post(postData);
+    });
+};
+exports.default = {
+    mysqlAuto: /^\/syncMysqlAuto/,
+    debug: false,
+    query_params: true,
+    cors: true,
+    corsHeaders: "token,content-type",
+    credentials: true,
+    websocket: {
+        "connect-login"({ payload, key }) {
+            (() => __awaiter(this, void 0, void 0, function* () {
+                if (payload.id) {
+                    const [{ user_id, user_tag, device_log, app_id, project_version } = {}] = yield this.$DBModel.tables.log_pv.get({
+                        where: {
+                            id: { value: payload.id }
+                        }
+                    });
+                    const log = JSON.parse(Buffer.from(device_log, "base64").toString());
+                    yield post_connect_user.call(this, key, {
+                        user_id,
+                        user_tag,
+                        visitorId: log.visitorId,
+                        app_id,
+                        project_version
+                    }, true);
+                }
+                else {
+                    yield post_connect_user.call(this, key, payload.data, false);
+                }
+                global.$socketSend(JSON.stringify({
+                    emit: 'connect-login-success'
+                }), [key]);
+            }))();
+        },
+        "connect-send"({ payload, key }) {
+            (() => __awaiter(this, void 0, void 0, function* () {
+                if (payload.id) {
+                    // 服务端
+                    const res = yield this.$DBModel.tables.connect_user.get({
+                        where: {
+                            parent_client_key: { value: key },
+                            is_admin_client: { value: 1, and: true },
+                        }
+                    });
+                    global.$socketSend(JSON.stringify(payload), res.map(e => e.client_key));
+                }
+                else {
+                    // 客户端
+                    const [{ parent_client_key } = {}] = yield this.$DBModel.tables.connect_user.get({
+                        where: {
+                            client_key: { value: key }
+                        }
+                    });
+                    if (parent_client_key) {
+                        global.$socketSend(JSON.stringify(payload), [parent_client_key]);
+                    }
+                }
+            }))();
+        },
+        "ws-close"({ key }) {
+            (() => __awaiter(this, void 0, void 0, function* () {
+                yield this.$DBModel.tables.connect_user.delete({
+                    where: {
+                        client_key: { value: key }
+                    }
+                });
+            }))();
+        }
+    },
+    CorePlugConfig: {
+        staticPulgin: {
+            extHeader: {
+                '.jpeg': {
+                    "access-control-allow-origin": "*",
+                    // "access-control-allow-methods":"*",
+                    // "access-control-allow-headers":"*",
+                }
+            }
+        }
+    },
+    mysqlConfig: {
+        connectionLimit: 100,
+        host: process.environment.dev ? '127.0.0.1' : '172.17.0.2',
+        port: 3306,
+        user: 'root',
+        password: 'rootroot',
+        database: "system_monitoring_node",
+        prefix: ""
+    },
+    serve: {
+        port: 40010
+    },
+    noticeConfig: {
+    // DingTalk:{
+    //     access_token: "c637e314590f0a7053c96d3079b2ed820eebc670ac2c84b135a8b8bbcf658268",
+    //     secret:"SECdeb6035fb77e2b49e26137d6da8c55421a46b73eb61eb8d4325e68d4a4a37455"
+    // }
+    }
+};
