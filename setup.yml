@@ -5,6 +5,7 @@ services:
     container_name: web-monitoring
     image: ubuntu
     restart: always
+    command: tail -f /dev/null
     ports:
     # 服务端口
       - "40010:40010"
