@@ -29,6 +29,7 @@ cd /node && npm install && pm2 start -n nodeServe npm -- run start && cd /
 apt install nginx -y
 # 删除nginx默认配置
 rm /etc/nginx/sites-enabled/default
+ln -s /web-monitoring-master/nginx/sites-enabled/web.conf /etc/nginx/sites-enabled/web.conf
 nginx
 # 安装mysql
 apt install mysql-server -y
