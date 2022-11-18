@@ -84,6 +84,17 @@ services:
 
 `mysql> flush privileges;`
 
+修改mysql配置文件 `vi /etc/mysql/mysql.conf.d/mysqld.cnf` ，找到以下内容并禁用
+
+```yaml
+# bind-address          = 127.0.0.1
+# mysqlx-bind-address   = 127.0.0.1
+```
+
+
+
+`mysql> flush privileges;`
+
 
 # liunx 命令
 
