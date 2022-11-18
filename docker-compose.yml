@@ -7,9 +7,9 @@ services:
     restart: always
     command: sh ./web-monitoring-install.sh
     ports:
-    # 服务端口
+      # 服务端口
       - "40010:40010"
-    # mysql端口
+      # mysql端口
       - "40020:3306"
       # web页面端口
       - "40030:80"
