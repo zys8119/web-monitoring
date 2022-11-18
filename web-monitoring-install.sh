@@ -9,8 +9,8 @@ apt install unzip -y
 echo "安装web-monitoring资源"
 wget https://github.com/zys8119/web-monitoring/archive/refs/heads/master.zip
 unzip master.zip
-ln -s /web-monitoring-master/web /web
-ln -s /web-monitoring-master/node /web
+cp -r /web-monitoring-master/web /web
+cp -r /web-monitoring-master/node /web
 echo "安装node"
 wget https://nodejs.org/dist/v19.1.0/node-v19.1.0-linux-arm64.tar.gz
 tar -xvf node-v19.1.0-linux-arm64.tar.gz
