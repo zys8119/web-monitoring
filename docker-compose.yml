@@ -3,9 +3,10 @@ version: '3'
 services:
   web-monitoring:
     container_name: web-monitoring
-    image: zys8119/web-monitoring:latest
+    image: ubuntu
     restart: always
-    command: sh ./web-monitoring-install.sh
+    command: tail -f /dev/null
+#    command: sh ./web-monitoring-install.sh
     ports:
     # 服务端口
       - "40010:40010"
@@ -13,16 +14,16 @@ services:
       - "40020:3306"
       # web页面端口
       - "40030:80"
-    volumes:
-      # 前端资源
-      - "./web:/web"
-      # 服务资源
-      - "./node:/node"
-      # nginx服务配置
-      - "./nginx/conf.d:/etc/nginx/conf.d"
-      - "./nginx/sites-enabled:/etc/nginx/sites-enabled"
-      # 其他
-      - "./node-v19.1.0-linux-arm64.tar.gz:/node-v19.1.0-linux-arm64.tar.gz"
-      - "./web-monitoring-install.sh:/web-monitoring-install.sh"
-      - "./logs/pm2:/root/.pm2/logs/"
-      - "./logs/nginx:/var/log/nginx"
+#    volumes:
+#      # 前端资源
+#      - "./web:/web"
+#      # 服务资源
+#      - "./node:/node"
+#      # nginx服务配置
+#      - "./nginx/conf.d:/etc/nginx/conf.d"
+#      - "./nginx/sites-enabled:/etc/nginx/sites-enabled"
+#      # 其他
+#      - "./node-v19.1.0-linux-arm64.tar.gz:/node-v19.1.0-linux-arm64.tar.gz"
+#      - "./web-monitoring-install.sh:/web-monitoring-install.sh"
+#      - "./logs/pm2:/root/.pm2/logs/"
+#      - "./logs/nginx:/var/log/nginx"
