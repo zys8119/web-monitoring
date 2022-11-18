@@ -39,21 +39,21 @@ services:
     restart: always
     command: sh ./web-monitoring-install.sh
     ports:
-    # 服务端口
+      # 服务端口
       - "40010:40010"
-    # mysql端口
+      # mysql端口
       - "40020:3306"
       # web页面端口
       - "40030:80"
     volumes:
-      # 前端资源
+      # web前端资源
       - "./web:/web"
-      # 服务资源
+      # node服务资源
       - "./node:/node"
       # nginx服务配置
       - "./nginx/conf.d:/etc/nginx/conf.d"
       - "./nginx/sites-enabled:/etc/nginx/sites-enabled"
-      # 其他
+      # 相关日志
       - "./logs/pm2:/root/.pm2/logs/"
       - "./logs/nginx:/var/log/nginx"
 ```
