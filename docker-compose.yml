@@ -3,7 +3,7 @@ version: '3'
 services:
   web-monitoring:
     container_name: web-monitoring
-    image: ubuntu
+    image: zys8119/web-monitoring:latest
     restart: always
     command: sh ./web-monitoring-install.sh
     ports:
