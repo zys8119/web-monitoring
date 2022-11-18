@@ -14,9 +14,6 @@ ln -s /web-monitoring-master/node /web
 # 安装node
 wget https://nodejs.org/dist/v19.1.0/node-v19.1.0-linux-arm64.tar.gz
 tar -xvf node-v19.1.0-linux-arm64.tar.gz
-# 安装node
-wget https://nodejs.org/dist/v19.1.0/node-v19.1.0-linux-arm64.tar.gz
-tar -xvf node-v19.1.0-linux-arm64.tar.gz
 # 创建软连
 ln -s /node-v19.1.0-linux-arm64/bin/node /usr/local/bin/node
 ln -s /node-v19.1.0-linux-arm64/bin/npm /usr/local/bin/npm

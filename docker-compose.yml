@@ -22,7 +22,5 @@ services:
       - "./nginx/conf.d:/etc/nginx/conf.d"
       - "./nginx/sites-enabled:/etc/nginx/sites-enabled"
       # 其他
-      - "./node-v19.1.0-linux-arm64.tar.gz:/node-v19.1.0-linux-arm64.tar.gz"
-      - "./web-monitoring-install.sh:/web-monitoring-install.sh"
       - "./logs/pm2:/root/.pm2/logs/"
       - "./logs/nginx:/var/log/nginx"

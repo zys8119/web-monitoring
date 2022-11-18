@@ -1,0 +1,14 @@
+# yaml 配置实例
+version: '3'
+services:
+  web-monitoring:
+    container_name: web-monitoring
+    image: ubuntu
+    restart: always
+    ports:
+    # 服务端口
+      - "40010:40010"
+    # mysql端口
+      - "40020:3306"
+      # web页面端口
+      - "40030:80"
