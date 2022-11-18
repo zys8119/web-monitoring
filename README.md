@@ -83,3 +83,10 @@ services:
 `mysql> update mysql.user set host='%' where user='root';`
 
 `mysql> flush privileges;`
+
+
+# liunx 命令
+
+`ps -ax | grep mysql`
+
+`kill p pid`
