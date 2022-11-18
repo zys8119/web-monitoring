@@ -29,7 +29,7 @@ echo 安装nginx
 apt install nginx -y
 echo 删除nginx默认配置
 rm /etc/nginx/sites-enabled/default
-ln -s /web-monitoring-master/nginx/sites-enabled/web.conf /etc/nginx/sites-enabled/web.conf
+cp /web-monitoring-master/nginx/sites-enabled/web.conf /etc/nginx/sites-enabled/web.conf
 nginx
 echo 安装mysql
 apt install mysql-server -y
