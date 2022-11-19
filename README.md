@@ -91,9 +91,7 @@ services:
 # mysqlx-bind-address   = 127.0.0.1
 ```
 
-
-
-`mysql> flush privileges;`
+`service mysql restart`
 
 
 # liunx 命令
