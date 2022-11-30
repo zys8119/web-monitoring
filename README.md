@@ -39,6 +39,7 @@ services:
       # nginx服务配置
       - "./nginx/conf.d:/etc/nginx/conf.d"
       - "./nginx/sites-enabled:/etc/nginx/sites-enabled"
+      - "./web:/web"
       # 相关日志
       - "./logs/pm2:/root/.pm2/logs/"
       - "./logs/nginx:/var/log/nginx"
