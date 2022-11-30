@@ -4,3 +4,4 @@ packages
 package-lock.json
 /logs
 /nginx
+/web
