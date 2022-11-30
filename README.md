@@ -26,7 +26,6 @@ ubuntu基础镜像封装
 [docker-compose.yml](https://github.com/zys8119/web-monitoring/blob/ubuntu/docker-compose.yml) 或者点击该链接查看
 
 ```yaml
-# yaml 配置实例
 version: '3'
 services:
   ubuntu-test:
@@ -34,6 +33,8 @@ services:
     image: zys8119/ubuntu:latest
     restart: always
     command: sh ./ubuntu-install.sh
+    ports:
+      - "80:80"
     volumes:
       # nginx服务配置
       - "./nginx/conf.d:/etc/nginx/conf.d"
