@@ -4,3 +4,4 @@ packages
 package-lock.json
 /logs
 /nginx/sites-enabled/default
+/nginx/sites-enabled/web.conf

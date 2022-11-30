@@ -13,7 +13,7 @@ tar -xvf node-v19.1.0-linux-arm64.tar.gz
 echo "删除压缩包 ---> rm node-v19.1.0-linux-arm64.tar.gz"
 rm node-v19.1.0-linux-arm64.tar.gz
 echo "移动node至 /etc/node"
-mv node-v19.1.0-linux-arm64.tar.gz /etc/nodejs
+mv node-v19.1.0-linux-arm64 /etc/nodejs
 echo "创建node软链接 ---> ln -s /etc/nodejs/bin/node /usr/local/bin/node && ln -s /etc/nodejs/bin/npm /usr/local/bin/npm"
 ln -s /etc/nodejs/bin/node /usr/local/bin/node
 ln -s /etc/nodejs/bin/npm /usr/local/bin/npm
