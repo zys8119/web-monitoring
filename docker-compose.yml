@@ -5,6 +5,8 @@ services:
     image: zys8119/ubuntu:latest
     restart: always
     command: sh ./ubuntu-install.sh
+    ports:
+      - "80:80"
     volumes:
       # nginx服务配置
       - "./nginx/conf.d:/etc/nginx/conf.d"
