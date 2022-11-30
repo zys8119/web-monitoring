@@ -1,6 +1,6 @@
 # ubuntu
 
-ubuntu镜像封装
+ubuntu基础镜像封装
 
 说明：
 
