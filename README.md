@@ -30,22 +30,11 @@ ubuntu基础镜像封装
 version: '3'
 services:
   ubuntu-test:
-    container_name: ubuntu
+    container_name: ubuntu-test
     image: zys8119/ubuntu:latest
     restart: always
     command: sh ./ubuntu-install.sh
-    ports:
-      # 服务端口
-      - "40010:40010"
-      # mysql端口
-      - "40020:3306"
-      # web页面端口
-      - "40030:80"
     volumes:
-      # web前端资源
-      - "./web:/web"
-      # node服务资源
-      - "./node:/node"
       # nginx服务配置
       - "./nginx/conf.d:/etc/nginx/conf.d"
       - "./nginx/sites-enabled:/etc/nginx/sites-enabled"
