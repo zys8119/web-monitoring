@@ -1,6 +1,6 @@
 # ubuntu
 
-前端监控平台 docker 镜像
+ubuntu镜像封装
 
 说明：
 
