@@ -2,7 +2,7 @@
 version: '3'
 services:
   ubuntu-test:
-    container_name: ubuntu
+    container_name: ubuntu-test
     image: zys8119/ubuntu:latest
     restart: always
     command: sh ./ubuntu-install.sh
