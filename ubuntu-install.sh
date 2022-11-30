@@ -25,6 +25,9 @@ echo "创建pm2软链接 ---> ln -s /etc/nodejs/bin/pm2 /usr/local/bin/pm2"
 ln -s /node-v19.1.0-linux-arm64/bin/pm2 /usr/local/bin/pm2
 echo "安装nginx ---> apt install nginx -y"
 apt install nginx -y
+echo "初始化默认配置"
+cp /web.conf /etc/nginx/sites-enabled/web.conf
+rm /web.conf
 echo "安装mysql ---> apt install mysql-server -y"
 apt install mysql-server -y
 echo "启动mysql ---> service mysql start"
