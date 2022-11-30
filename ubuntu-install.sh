@@ -47,6 +47,8 @@ apt install nginx -y
 echo "初始化默认配置"
 cp /web.conf /etc/nginx/sites-enabled/web.conf
 rm /web.conf
+echo "启动nginx ---> service nginx start"
+service nginx start
 
 #todo 安装mysql
 echo "安装mysql ---> apt install mysql-server -y"
