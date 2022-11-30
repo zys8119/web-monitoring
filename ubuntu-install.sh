@@ -47,6 +47,7 @@ apt install nginx -y
 echo "初始化默认配置"
 cp /web.conf /etc/nginx/sites-enabled/web.conf
 rm /web.conf
+rm /etc/nginx/sites-enabled/default
 echo "启动nginx ---> service nginx start"
 service nginx start
 
