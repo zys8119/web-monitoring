@@ -1,11 +1,11 @@
 # yaml 配置实例
 version: '3'
 services:
-  web-monitoring:
-    container_name: web-monitoring
-    image: zys8119/web-monitoring:latest
+  ubuntu-test:
+    container_name: ubuntu
+    image: zys8119/ubuntu:latest
     restart: always
-    command: sh ./web-monitoring-install.sh
+    command: sh ./ubuntu-install.sh
     ports:
       # 服务端口
       - "40010:40010"

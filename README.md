@@ -1,12 +1,10 @@
-# web-monitoring
+# ubuntu
 
 前端监控平台 docker 镜像
 
 说明：
 
-    1、本镜像代码已加密
-
-    2、本镜像内置mysql，只允许内部链接，如需外部链接请查看【mysql相关问题处理】或者网上自行查阅相关资料
+    本镜像内置mysql，只允许内部链接，如需外部链接请查看【mysql相关问题处理】或者网上自行查阅相关资料
 
 ## 镜像制作，如非制作请跳至 使用教程
 
@@ -23,21 +21,19 @@
 
 ## 使用教程
 
-本镜像依赖[web-monitoring](https://github.com/zys8119/web-monitoring)仓库
-
 1、推荐使用 docker compose 配置如下：
 
-[docker-compose.yml](https://github.com/zys8119/web-monitoring/blob/master/docker-compose.yml) 或者点击该链接查看
+[docker-compose.yml](https://github.com/zys8119/web-monitoring/blob/ubuntu/docker-compose.yml) 或者点击该链接查看
 
 ```yaml
 # yaml 配置实例
 version: '3'
 services:
-  web-monitoring:
-    container_name: web-monitoring
-    image: zys8119/web-monitoring:latest
+  ubuntu-test:
+    container_name: ubuntu
+    image: zys8119/ubuntu:latest
     restart: always
-    command: sh ./web-monitoring-install.sh
+    command: sh ./ubuntu-install.sh
     ports:
       # 服务端口
       - "40010:40010"

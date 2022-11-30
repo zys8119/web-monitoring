@@ -1,1 +1,1 @@
-docker cp ./web-monitoring-install.sh web-monitoring:/web-monitoring-install.sh
+docker cp ./ubuntu-install.sh ubuntu:/ubuntu-install.sh
